@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+}
+
+.keys {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+    width: 90px;
+    height: 70px;
+    margin: 10px;
+    background-color: darkgray;
+    border: 3.5px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 0 0 0.5rem black;
+    transition:all 0.07s ease;
+}
+
+kbd {
+    color: whitesmoke;
+    font-size: 2em;
+    margin-top: .6rem;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+.sound {
+    color: gold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
